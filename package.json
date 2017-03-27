@@ -1,0 +1,30 @@
+{
+  "name": "node-protobuf-prototype",
+  "version": "1.0.0",
+  "description": "Node Protobuf implementation prototype",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkjackson/node-protobuf-prototype.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "proto",
+    "protobuf",
+    "prototype"
+  ],
+  "author": "rkjackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkjackson/node-protobuf-prototype/issues"
+  },
+  "homepage": "https://github.com/rkjackson/node-protobuf-prototype#readme",
+  "dependencies": {
+    "google-protobuf": "^3.2.0",
+    "lodash": "^4.17.4",
+    "node-protobuf": "^1.4.3",
+    "protobufjs": "^6.6.5",
+    "randomstring": "^1.1.5"
+  }
+}

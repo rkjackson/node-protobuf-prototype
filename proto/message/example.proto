@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package message;
+
+import "proto/meta/meta.proto";
+
+message Example {
+    meta.MessageMeta meta = 1;
+    string value = 2;
+}

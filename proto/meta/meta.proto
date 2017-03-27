@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package meta;
+
+import "google/protobuf/timestamp.proto";
+
+message MessageMeta {
+    string id = 1;
+    google.protobuf.Timestamp timestamp = 2;
+    MessageType type = 3;
+}
+
+enum MessageType {
+    UNKNOWN = 0;
+    EXAMPLE = 1;
+}
